@@ -50,10 +50,10 @@ public class StreamLibrary extends Application {
     private static Label mediaLabelCondition = null;
     // Setup Constant Sizes
     private static final double VIEW_WIDTH = 720;
-    private static final double VIEW_HEIGHT = 430;
-    private static final double LISTVIEW_HEIGHT = 430;
+    private static final double VIEW_HEIGHT = 460;
+    private static final double LISTVIEW_HEIGHT = 460;
     private static final double SCENE_WIDTH = 1080;
-    private static final double SCENE_HEIGHT = 800;
+    private static final double SCENE_HEIGHT = 820;
     private static final int H1_SIZE = 35;
     private static final int TITLE_SIZE = 24;
     private static final int TEXT_SIZE = 18;
@@ -70,7 +70,7 @@ public class StreamLibrary extends Application {
     @Override
     public void start(Stage stage) {
         Media firstMedia = mediaList.get(0);
-        Text title = NewText("Stream Library", H1_SIZE, FontWeight.BOLD, FontPosture.REGULAR, Color.BLACK);
+        Text title = NewText("Stream Library", H1_SIZE, FontWeight.EXTRA_BOLD, FontPosture.REGULAR, Color.BLACK);
         Text subTitle = NewText("Movies & Games Library", TITLE_SIZE, FontWeight.EXTRA_LIGHT, FontPosture.REGULAR, Color.DARKGRAY);
         mediaTitle = NewText(firstMedia.getMediaTitle(), TITLE_SIZE, FontWeight.BOLD, FontPosture.REGULAR, Color.BLACK);
         mediaDescription = NewText(firstMedia.getDescription(), TEXT_SIZE, FontWeight.NORMAL, FontPosture.REGULAR, Color.BLACK);
