@@ -76,7 +76,7 @@ public class Library {
         deadPool.setActors(new String[] { "Ryan Reynolds", "Hugh Jackman", "Emma Corrin", "Wesley Snipes" });
         deadPool.setProduction(new String[] { "Marvel Studios", "20th Century Studios" });
         deadPool.setDuration("2h 8m");
-        deadPool.setImages(new String[] {"deadpool", "deadpool-image-2" });
+        deadPool.setImages(new String[] {"deadpool", "deadpool-image-2"});
         deadPool.setInitialReleaseDate(new Date(2024, Calendar.JULY, 26));
         // duneP2
         duneP2.setMediaTitle("Dune: Part Two");

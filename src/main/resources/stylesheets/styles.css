@@ -1,0 +1,20 @@
+/* Remove the blue border or highlight */
+.list-view:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* Remove selection background */
+.list-cell:focused {
+    -fx-background-color: transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: transparent; /* Removes the blue background */
+    -fx-text-fill: inherit; /* Keeps the text color consistent */
+}
+
+/* Optional: Customize hover effects */
+.list-cell:hover {
+    -fx-background-color: lightgray; /* Example hover effect */
+}
