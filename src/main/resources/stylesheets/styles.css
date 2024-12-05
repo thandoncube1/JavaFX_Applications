@@ -18,3 +18,13 @@
 .list-cell:hover {
     -fx-background-color: lightgray; /* Example hover effect */
 }
+
+/* Hide the vertical scrollbar */
+.list-view .scroll-bar:vertical {
+    -fx-opacity: 0; /* Make the scrollbar invisible */
+}
+
+/* Hide the horizontal scrollbar */
+.list-view .scroll-bar:horizontal {
+    -fx-opacity: 0; /* Make the scrollbar invisible */
+}

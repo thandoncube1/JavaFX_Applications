@@ -37,37 +37,42 @@ public class Library {
         fc24.setMediaTitle("EA SPORTS FC 24 Standard Edition");
         fc24.setDescription("EA SPORTS FC™ 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.");
         fc24.setGenres(new Genre[] { simulation });
-        fc24.setFeatures(new String[] { "Multiplayer", "Co-op", "Single Player" });
+        fc24.setFeatures("Multiplayer, Co-op, Single Player");
         fc24.setImages(new String[] {"fc24-image-1", "fc24-image-2" });
         fc24.setAgeRating("ESRB Everyone");
+        fc24.setPlatform("PS5, XBOX X|S, PC");
         // Squad
         squad.setMediaTitle("Squad Commander Edition");
         squad.setDescription("Squad is a tactical FPS that provides authentic combat experiences through teamwork, communication, and realistic combat. It bridges the gap between arcade shooter and military realism with 100-player battles, combined-arms warfare, and base building.");
         squad.setGenres(new Genre[] { simulation, action, adventure });
-        squad.setFeatures(new String[] { "Multiplayer", "Strategy" });
+        squad.setFeatures("Multiplayer, Strategy");
         squad.setImages(new String[] { "squad-image-1", "squad-image-2" });
         squad.setAgeRating("ESRB Mature");
+        squad.setPlatform("Windows, Android, macOS, PS3");
         // Cyberpunk
         cyberpunk.setMediaTitle("Cyberpunk 2077 Ultimate Edition");
         cyberpunk.setDescription("Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.");
         cyberpunk.setGenres(new Genre[] { rpg, action, mature });
-        cyberpunk.setFeatures(new String[] { "Simulation", "Singleplayer", "Stream Trading Cards" });
+        cyberpunk.setFeatures("Simulation, Singleplayer, Stream Trading Cards");
         cyberpunk.setImages(new String[] {"cyber-image-1", "cyber-image-2" });
         cyberpunk.setAgeRating("ESRB Mature 17+");
+        cyberpunk.setPlatform("PS4, PS5, MacOS, Xbox X|S, One");
         // Halo
         halo.setMediaTitle("Halo Infinite (Campaign)");
         halo.setDescription("From one of gaming's most iconic sagas, Halo is bigger than ever. Featuring an expansive open-world campaign and a dynamic free to play multiplayer experience.");
         halo.setGenres(new Genre[] { action, simulation, fantasy });
-        halo.setFeatures(new String[] { "Online PvP", "Cross-Platform Multiplayer", "LAN PvP" });
+        halo.setFeatures("Online PvP, Cross-Platform Multiplayer, LAN PvP");
         halo.setImages(new String[] { "halo-image-1", "halo-image-2" });
         halo.setAgeRating("ESRB Teen");
+        halo.setPlatform("Xbox X|S, Windows, macOS, Arcade, iOS");
         // Forza
         forza.setMediaTitle("Forza Motorsport NASCAR Series");
         forza.setDescription("Out-build the competition in Career. Race the globe in Multiplayer. Compete in over 500 cars on 27 world-famous tracks – now featuring the exhilarating Nürburgring Nordschleife!");
         forza.setGenres(new Genre[] { simulation, sport, action });
-        forza.setFeatures(new String[] {"Singleplayer", "Online PvP", "Cross-Platform Multiplayer" });
+        forza.setFeatures("Singleplayer, Online PvP, Cross-Platform Multiplayer");
         forza.setImages(new String[] { "forza-image-1", "forza-image-2" });
         forza.setAgeRating("ESRB Everyone");
+        forza.setPlatform("Xbox X|S, One, Windows, Android");
 
         // Deadpool
         deadPool.setMediaTitle("Deadpool & Wolverine");
@@ -78,6 +83,7 @@ public class Library {
         deadPool.setDuration("2h 8m");
         deadPool.setImages(new String[] {"deadpool", "deadpool-image-2"});
         deadPool.setInitialReleaseDate(new Date(2024, Calendar.JULY, 26));
+        deadPool.setAgeRating("Rated-R 18");
         // duneP2
         duneP2.setMediaTitle("Dune: Part Two");
         duneP2.setDescription("Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future.");
@@ -87,6 +93,7 @@ public class Library {
         duneP2.setDuration("2h 46m");
         duneP2.setImages(new String[] {"dune", "dune-image-2"});
         duneP2.setInitialReleaseDate(new Date(2024, Calendar.MARCH, 1));
+        duneP2.setAgeRating("PG-13");
         // MadMax
         furiosaMadMax.setMediaTitle("Furiosa: A Mad Max Saga");
         furiosaMadMax.setDescription("As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home.");
@@ -96,6 +103,7 @@ public class Library {
         furiosaMadMax.setDuration("2h 28m");
         furiosaMadMax.setImages(new String[] { "madmax", "madmax-image-2" });
         furiosaMadMax.setInitialReleaseDate(new Date(2024, Calendar.MAY, 24));
+        furiosaMadMax.setAgeRating("Rated-R 18");
         // Gladiator 2
         gladiator2.setMediaTitle("Gladiator II");
         gladiator2.setDescription("After his home is conquered by the tyrannical emperors who now lead Rome, Lucius is forced to enter the Colosseum and must look to his past to find strength to return the glory of Rome to its people.");
@@ -105,6 +113,7 @@ public class Library {
         gladiator2.setDuration("2h 28m");
         gladiator2.setImages(new String[] {"gladiator", "gladiator-image-2"});
         gladiator2.setInitialReleaseDate(new Date(2024, Calendar.NOVEMBER, 22));
+        gladiator2.setAgeRating("Rated-R 18");
         // Equalizer 2
         equalizer.setMediaTitle("The Equalizer 2");
         equalizer.setDescription("Director Antoine Fuqua reunites with Denzel Washington in this sequel to 2014's The Equalizer. Washington resumes his role as Robert McCall: a retired CIA Black Ops operative who now works as a Lyft driver and moonlights as a vigilante. When his long-time friend is murdered he embarks on a relentless, globe-trotting quest for vengeance.");
@@ -114,6 +123,7 @@ public class Library {
         equalizer.setDuration("2h 1m");
         equalizer.setImages(new String[] {"equalizer", "equalizer-image-2"});
         equalizer.setInitialReleaseDate(new Date(2018, Calendar.JULY, 20));
+        equalizer.setAgeRating("Rated-R 18");
 
         // Add elements into the array.
         mediaCollection.addAll(Arrays.asList(equalizer, halo, forza, duneP2, gladiator2, furiosaMadMax, cyberpunk, squad, deadPool, fc24));

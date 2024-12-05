@@ -1,7 +1,7 @@
 package com.beginner.steamlabs.mediaLibrary;
 
 public class Game extends Media {
-    private String[] features;
+    private String features;
     private String developer;
     private String publisher;
     private String platform;
@@ -15,11 +15,11 @@ public class Game extends Media {
         this.publisher = this.getPublisher();
     }
 
-    public String[] getFeatures() {
+    public String getFeatures() {
         return features;
     }
 
-    public void setFeatures(String[] features) {
+    public void setFeatures(String features) {
         this.features = features;
     }
 
